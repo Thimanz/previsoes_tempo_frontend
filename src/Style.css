@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Domine", serif;
+    background-color: #e0ddcf;
+    color: #474448;
+}
+
+#app-react {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+#upper-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#main-menu,
+#contents,
+#search-menu {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contents {
+    justify-content: flex-start;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 320px;
+}
+
+#lower-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    -webkit-text-stroke: 0.5px #ffffff;
+    text-shadow: -1.4px 0 black, 0 1.4px black, 1.4px 0 black, 0 -1.4px black;
+    width: 100vw;
+}
+
+#upper-page h1 {
+    margin: 0;
+}
+
+#forecasts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 120vh;
+    width: 310px;
+}
+
+/* reset of flag-icons css */
+#forecasts > .forecast {
+    line-height: normal;
+    height: 130px;
+    width: 310px;
+    border-radius: 10px;
+}
+
+#inputs {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    height: 27px;
+    background-color: #9c9577;
+    font-family: "Domine", serif;
+    color: #eeece5;
+}
+
+#search-button {
+    border-radius: 0%;
+}
+
+#input-box {
+    border: none;
+    width: 250px;
+    height: 25px;
+}
+
+#input-box:focus {
+    outline: none;
+}
